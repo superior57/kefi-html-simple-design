@@ -1,0 +1,233 @@
+/*======================================================
+		    @media Responsive css add
+==============================================================*/
+
+@media (max-width:1200px){
+.BIG-title h1::after {
+	max-width: 513px;
+}
+.BIG-title h1::before {
+	left: 397px;
+}
+
+}
+
+
+
+
+@media (max-width:991px){
+.right-bar-Sec {
+  padding: 30px;
+}
+/*====== home page===== */
+.img-product img {
+	max-width: 100%;
+	width: auto;
+}
+.BIG-title h1 {
+	font-size: 20px;
+}
+.BIG-title h1::after {
+	max-width: 443px;
+	top: 13px;
+}
+.BIG-title h1::before {
+	left: 245px;
+	top: 11px;
+}
+.title-Cat h1 {
+	font-size: 13px;
+}
+.Category-menu-name li a {
+	font-size: 14px;
+}
+.entry-title h1 {
+	font-size: 16px;
+}
+.description p {
+	font-size: 13px;
+}
+.price span {
+	margin-left: 12px;
+}
+.price h4 {
+	font-size: 14px;
+}
+.entry-title2 h2 {
+	font-size: 15px;
+}
+.Click-btn .btn.btn-primary {
+	font-size: 12px;
+	padding: 6px 14px;
+}
+.entry-title2 {
+	padding-bottom: 6px;
+	padding-top: 12px;
+}
+.description {
+	padding-top: 8px;
+}
+.entry-title {
+	padding-top: 11px;
+}
+.Same-Design {
+	padding: 11px;
+}
+.menu-name li a {
+	color: #fff;
+	font-size: 15px;
+	padding: 15px 15px;
+	background-color:#414042;
+	margin-bottom: 1px;
+}
+.menu-name {
+	margin: 15px 0 15px;
+}
+.main-header {
+	padding: 10px 0;
+}
+.social-icon li {
+	margin-right: 0;
+}
+
+#Nave-Open-bar {
+    display: none;
+}
+
+#Nave-Open-bar2 {
+    display: none;
+}
+
+
+
+
+
+
+}
+
+@media (max-width:767px){
+	
+.left-bar-Sec {
+  margin-bottom: 40px;
+}
+#sign-up-page {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.heading-title h1 {
+  font-size: 20px;
+}
+.for-get-p label {
+  font-size: 14px;
+}
+
+/* ===home page=== */
+.Select-Category-left-bar {
+	margin-bottom: 30px;
+}
+.social-icon li a {
+	height: 30px;
+	width: 30px;
+}
+.social-icon li a i {
+	font-size: 13px;
+	line-height: 30px;
+}
+.Privacy-Police, .CopyrighT {
+	text-align: center;
+}
+.BIG-title h1::after, .BIG-title h1::before {display:none;}
+
+.coll-section-left::after {
+	background-color: transparent;
+	border-right: none;
+	padding: 0;
+}
+.coll-section-left {
+	text-align: center;
+}
+.Login-section-right {
+	text-align: center;
+	margin-top: 5px;
+}
+.Phone-Number li a {
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.login-bar li a {
+	font-size: 16px;
+	font-weight: 500;
+}
+#footer {
+	padding: 8px 0 35px;
+}
+.social-icon li {
+	margin-right: 5px;
+}
+.card-body h1 {
+	font-size: 21px;
+}
+.card-body p {
+	font-size: 14px;
+}
+.click-btnn {
+	margin-top: 13px;
+}
+.loopslider-nav-button {
+  height: 30px;
+  width: 26px;
+}
+
+
+
+}
+
+@media (max-width:575px){
+.header-slider figure > figcaption {
+	top: 5%;
+}
+
+}
+
+@media (max-width:479px){
+
+
+}
+@media (min-width:991px){
+	.nav-item.dropdowN ul.user-login-SEC {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: 999;
+  background-color: #414042;
+  transition: all 500ms ease;
+  max-width:170px;
+  width:100%;
+  top:130px;
+}
+.nav-item.dropdowN:hover ul.user-login-SEC {
+  opacity: 1;
+  visibility: visible;
+  transition: all 500ms ease;
+  top:100%;
+}
+.nav-item.dropdowN ul.user-login-SEC li a {
+    padding: 11px;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+#Nave-Open-bar2 li a {
+	text-align: left;
+}
+.right-top .nav-item.dropdowN:hover ul.user-login-SEC {
+	opacity: 1;
+	visibility: visible;
+	transition: all 500ms ease;
+	top: 112%;
+}
+
+
+
+}
